@@ -16,7 +16,7 @@ public void setup()
 }
 public boolean palindrome(String word)
 {
- String a = new String();
+  String a = new String();
   String b = new String();
   for (int j = 0; j < word.length(); j++){
     if (word.substring(j,j +1).equals(" ") == false && Character.isLetter(word.charAt(j))){
@@ -38,5 +38,3 @@ public String reverse(String str)
   }
   return a;
 }
-
-
